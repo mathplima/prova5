@@ -1,0 +1,168 @@
+body{
+    padding-top: 50px;
+    height: 100vh;
+    background-image: url(/aurora_wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Roboto Flex", sans-serif;
+    color: #242424;
+    font-size: 20px;
+
+}
+
+.titulo{
+    font-family: "Tourney", sans-serif;
+    color: #1684a0;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subtitulo{
+    font-family: "Tourney", sans-serif;
+    color: #1684a0;
+    font-size: 30px;
+    margin: 45px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff8a;
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 3px 3px 10px #0b7e92a8;
+}
+
+.intro{
+    text-align: center;
+    line-height: 1.8;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bold
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+ul{
+    list-style: none;
+}
+
+section{
+    padding-left: 200px;
+}
+
+.banner{
+    width: 1000px;
+    border-radius: 50px;
+    margin-left: 280px;
+    margin-top: 40px;
+    transition: 0.5s ease-in-out;
+}
+
+.banner:hover{
+    transform: scale(1.01);
+}
+
+.menu{
+    background-color: #ffffff8a;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 3px 3px 10px #0b7e92a8;
+}
+
+.menu_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu_item{
+    font-family: "Tourney", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1a9cbd;
+}
+
+.lista_playlist{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.playlist_imagem{
+    max-width: 300px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.playlist{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: #ffffff8a;
+    box-shadow: 3px 3px 10px #0b7e92a8;
+    padding: 20px;
+    max-width: 50vw;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.playlist_imagem:hover{
+    transform: scale(1.07);
+}
+
+.playlist_musicas{
+    color: #1684a0;
+    font-family: "Roboto Flex", sans-serif;
+    text-align: start
+    line-height: 1.8;
+    
+}
+
+.plalist_numero{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border-radius: 50%;
+    background-color: #169bbd;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    font-family: "Tourney", sans-serif;
+    font-size: larger;
+}
+
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff8a;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+
+.footer_link{
+    font-family: "Tourney", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    gap: 20px;
+    color: #1684a0;
+    text-decoration: underline;
+}
