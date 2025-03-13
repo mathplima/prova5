@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova 5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="shortcut icon" href="/2663942_6e48f.png" type="image/x-icon">
+</head>
+<body>
+    <header class="menu">
+        <ul class="menu_lista">
+            <li>
+                <a class="menu_item" href="http://127.0.0.1:5500/prova5.html">HOME</a>
+            </li>
+            <li>
+                <a class="menu_item" href="https://www.youtube.com/watch?v=HuOHu5XSTSk">MUSIC</a>
+            </li>
+            <li>
+                <a class="menu_item" href="https://www.pinterest.com/skeuoss/frutiger-aero-images/">PHOTO</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <img class="banner" src="/frutiger_aero_wallpaper_by_elfwink_dgwoh12-fullview.jpg" alt="Banner Frutiger Aero">
+
+        <h1 class="titulo">Frutiger Aero Playlist</h1>
+
+        <section>
+            <h2 class="subtitulo">Inicio</h2>
+            <p class="intro">Olá Mundo, sejam todes bem-vindes a minha singela playlist do mundinho Frutiger Aero.
+                Nele você encontrará uma playlist super divertida e imersiva nesse lugar que um dia foi muito
+                explorado em seus anos de luz dos anos 2000. A playlist estará dividida em quatro sessões 
+                com sub estilos diferenciados da epoca. Aproveite e se nostalgie com esse mundo colorido!
+            </p>
+        </section>
+
+        <section>
+            <h2 class="subtitulo">Playlist</h2>
+
+            <ol class="lista_playlist">
+                <li class="playlist">
+                    <span class="plalist_numero">1</span>
+                    <img class="playlist_imagem" src="/player1.png" alt="Player One">
+                    <p class="playlist_musicas">LEASE - Takeshi <br> Abo LOTUS WATERS - Urotsuki <br> YOU ARE MY MUSIC - hi-posi</p>
+                </li>
+                <li class="playlist">
+                    <span class="plalist_numero">2</span>
+                    <img class="playlist_imagem" src="/player2.png" alt="Player Two">
+                    <p class="playlist_musicas">FLIM - Apex Twin <br> IDENTIFICATION - Infinity Frequencies <br> DARK CIRCLE - Hus</p>
+                </li>
+                <li class="playlist">
+                    <span class="plalist_numero">3</span>
+                    <img class="playlist_imagem" src="/player3.png" alt="Player Three">
+                    <p class="playlist_musicas">STAR U - Graham Kartna <br> A LETTER - Tsundere Twintails <br> OIVOMAITNT - Koronba</p>
+                </li>
+                <li class="playlist">
+                    <span class="plalist_numero">4</span>
+                    <img class="playlist_imagem" src="/player4.png" alt="Player Four">
+                    <p class="playlist_musicas">CAROUSEL - Bliss3three <br> DOTCOM - Nanoray <br> B9BECE - Koronba</p>
+                </li>
+            </ol>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <h3 class="subtitulo">
+            Outros Mundo para Explorar
+        </h3>
+
+        <a class="footer_link" href="https://frutiger-aero.org/frutiger-metro">Frutiger Metro</a>
+        <br>
+        <a class="footer_link" href="https://frutiger-aero.org/frutiger-eco">Frutiger Eco</a>
+        <br>
+        <a class="footer_link" href="https://frutiger-aero.org/DORFic">DORFic</a>
+    </footer>
+</body>
+</html>
